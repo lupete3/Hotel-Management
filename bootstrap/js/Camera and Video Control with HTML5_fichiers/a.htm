@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="edit-Type" edit="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JSFiddle</title>
+
+      <meta name="robots" content="index, follow">
+      <meta name="googlebot" content="index, follow">
+
+      <script src="a_data/highlight.js"></script>
+      <script src="a_data/embed.js"></script>
+      <link rel="stylesheet" media="screen" href="a_data/embed-light.css">
+
+      <script type="text/javascript">
+        var height;
+        var force_height = null;
+        var slug = "rhsb0fqo";
+        var show_src = "//fiddle.jshell.net/rhsb0fqo/show/light/";
+        var resize_element_counter = 0;
+        var shell_edit_url = "/rhsb0fqo/light/";
+
+      </script>
+
+    <link rel="stylesheet" media="screen" href="a_data/css.css">
+
+    <style type="text/css" media="screen">
+    </style>
+
+  </head>
+  <body>
+    <div id="wrapper">
+        <header>
+          <h1><a href="https://jsfiddle.net/rhsb0fqo/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=rhsb0fqo" target="_blank">Edit in JSFiddle</a></h1>
+          <div id="actions">
+            <ul class="normalRes">
+                <li class="&quot;active&quot;">
+                  <a data-trigger-type="js" href="#JavaScript">JavaScript</a>
+                </li>
+                <li>
+                  <a data-trigger-type="html" href="#HTML">HTML</a>
+                </li>
+                <li>
+                  <a data-trigger-type="css" href="#CSS">CSS</a>
+                </li>
+                <li>
+                  <a data-trigger-type="result" href="#Result">Result</a>
+                </li>
+            </ul>
+            <div class="hl" style="left: 0px; width: 80px;"></div>
+          </div>
+        </header>
+
+        <div id="tabs">
+              <pre class="tCont active hljs javascript"><span class="hljs-keyword">var</span> myInput = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'myFileInput'</span>);
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sendPic</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">var</span> file = myInput.files[<span class="hljs-number">0</span>];
+
+    <span class="hljs-comment">// Send file here either by adding it to a `FormData` object </span>
+    <span class="hljs-comment">// and sending that via XHR, or by simply passing the file into </span>
+    <span class="hljs-comment">// the `send` method of an XHR instance.</span>
+    
+    <span class="hljs-built_in">console</span>.log(file);
+}
+
+myInput.addEventListener(<span class="hljs-string">'change'</span>, sendPic, <span class="hljs-literal">false</span>);</pre>
+              <pre class="tCont hljs xml">    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"myFileInput"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"file"</span> <span class="hljs-attr">accept</span>=<span class="hljs-string">"image/*"</span> <span class="hljs-attr">capture</span>=<span class="hljs-string">"camera"</span>&gt;</span>
+</pre>
+              <pre class="tCont hljs"></pre>
+              <div class="tCont result " id="result"></div>
+        </div>
+    </div>
+  
+
+</body></html>

@@ -1,0 +1,4 @@
+AuthName "CONFIRMATION D'AUTHENTIFICATION"
+AuthType Basic
+AuthUserFile "C:\wamp\www\bbh_management1.2\php\.htpasswd"
+Require valid-user

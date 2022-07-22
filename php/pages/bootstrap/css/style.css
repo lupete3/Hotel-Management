@@ -1,0 +1,22 @@
+body{
+		background:url('../fichiers/photos/ceni.png') repeat-y;
+	}
+	.spacer{
+		margin-top:30px;
+	}
+	.bad{
+		font-size:1.5em;
+	}
+	img:hover{
+		cursor:pointer;
+	}
+	.modal-body img{
+		height:400px;
+	}
+	.mCard{
+		width: 170px;
+		height: 170px;
+	}
+	.pagin{
+		float:center;
+	}
